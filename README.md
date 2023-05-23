@@ -9,17 +9,17 @@ The `printInfo()` method should print out all the attributes, including each pow
 | - name: String    |
 | - alias: String   |
 | - age: int        |
-| - powers: ArrayList<String> |
+| - powers: String[] |
   |  |
-| + Avengers(name:String, alias:String, age:int, powers:ArrayList<String>) |
+| + Avengers(name:String, alias:String, age:int, powers:String[]) |
 | + getName():String |
 | + setName(name:String):void |
 | + getAlias():String |
 | + setAlias(alias:String):void |
 | + getAge():int |
 | + setAge(age:int):void |
-| + getPowers():ArrayList<String> |
-| + setPowers(powers:ArrayList<String>):void |
+| + getPowers():String[] |
+| + setPowers(powers:String[]):void |
 | + printInfo():void | 
   
  The `printInfo()` method should print out all the attributes, including each power
